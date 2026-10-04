@@ -9,5 +9,17 @@
 }
 return Sum;
 }
-console.log(sum(1234));
+
+// Reverse of number is  // infinity is numbermax value in there
+ let r = 0;
+ let reverse = function(n){
+ while(n>0){
+     sum = n%10;
+     r = r*10 + sum;
+     n = n/10;
+ }
+ return r;
+}
+console.log(reverse(1234));
+
 
