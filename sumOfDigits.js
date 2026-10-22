@@ -10,7 +10,7 @@
 return Sum;
 }
 
-// Reverse of number is  // infinity is numbermax value in there
+// Reverse of number is  // infinity is number max value in there
  let r = 0;
  let reverse = function(n){
  while(n>0){
@@ -21,5 +21,4 @@ return Sum;
  return r;
 }
 console.log(reverse(1234));
-
 
