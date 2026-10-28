@@ -6,6 +6,7 @@ function Fahrenheit_to_Celsius(start , end , step){
   for (start; start < end; start += step){
     fh =Math.trunc((start - 32) * 5 / 9);
     console.log(`${start} ${fh}`);
-  }
+       }
+       j++;
+     }
 }
-Fahrenheit_to_Celsius(18,156,32);
