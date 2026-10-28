@@ -1,12 +1,17 @@
-function Fahrenheit_to_Celsius(start , end , step){
-		
-     /* Write your code here
-    No need to specify return type 
-    Input is already taken care of, you have to print the output statements accordingly */
-  for (start; start < end; start += step){
-    fh =Math.trunc((start - 32) * 5 / 9);
-    console.log(`${start} ${fh}`);
-       }
-       j++;
-     }
-}
+ // That are usin of brute force  approch 
+// const a = [23,2,9,0,8,80,24,32];
+// let j=0;
+// // Write the code of assanding order 
+// for(i = 0;i<a.length;i++){
+//   j = i+1;
+//    while(j<a.length){                              
+//        if(a[i]>a[j]){
+//          [a[i],a[j]] = [a[j],a[i]];
+//        }
+//        j++;
+//      }
+// }
+// console.log(a);
+
+
+// ======================== 2. using Recursion ========================
